@@ -1,0 +1,127 @@
+/* 
+     Table of Contents:
+    1. Global
+        1.1 Resets
+        1.2 Elements
+*/
+
+/* --------------------
+    1. Global
+-------------------- */
+/* 1.1 Resets */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 1.2 Elements */
+html {
+    font-size: 100%;
+}
+
+body {  
+    font-size: 0.875em; 
+    line-height:1.125em;
+}
+
+/* 1.3 Helpers */
+.offscreen { position: absolute !important;left: -9999px !important;clip: rect(1px, 1px, 1px, 1px);padding: 0 !important;border: 0 !important;height: 1px !important;width: 1px !important;overflow: hidden; }
+
+/* column layouts */
+.col1,
+.col2,
+.col3,
+.col4 {
+    float: left;
+    height: 100%;
+}
+
+.col1 {
+    width: 25%; 
+}
+.col2 {
+    width: 50%;
+}
+.col3 {
+    width: 75%;
+}
+.col4 {
+    width: 100%;
+}
+
+.one-col > .col1 { width: 100%; }
+
+.two-col > .col1 { width: 50%; }
+.two-col > .col2 { width: 100%; }
+
+.three-col > .col1 { width: 33.33%; }
+.three-col > .col2 { width: 66.66%; }
+.three-col > .col3 { width: 100%; }
+
+/* default - dont need */
+.four-col > .col1 { width: 25%; }
+.four-col > .col2 { width: 50%; }
+.four-col > .col3 { width: 75%; }
+.four-col > .col4 { width: 100%; }
+
+.one-col:before, .one-col:after,
+.two-col:before, .two-col:after,
+.three-col:before, .three-col:after,
+.four-col:before, .four-col:after,
+.clear:before, .clear:after {content:""; display:table;} 
+
+.one-col:after,
+.two-col:after,
+.two-col:after,
+.four-col:after,
+.clear:after {clear:both;}
+
+.one-col,
+.two-col,
+.two-col,
+.four-col,
+.clear {zoom:1;}
