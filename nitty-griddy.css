@@ -132,34 +132,34 @@ body {
 .five-col > .col4 { width: 80%; }
 
 .six-col > .col1 { width: 16.667%; }
-.six-col > .col2 { width: 16.667%; }
-.six-col > .col3 { width: 16.667%; }
-.six-col > .col4 { width: 16.667%; }
-.six-col > .col5 { width: 16.667%; }
+.six-col > .col2 { width: 33.334%; }
+.six-col > .col3 { width: 50.001%; }
+.six-col > .col4 { width: 66.668%; }
+.six-col > .col5 { width: 83.335%; }
 
-.seven-col > .col1 { width: 14.285%; }
-.seven-col > .col2 { width: 14.285%; }
-.seven-col > .col3 { width: 14.285%; }
-.seven-col > .col4 { width: 14.285%; }
-.seven-col > .col5 { width: 14.285%; }
-.seven-col > .col6 { width: 14.285%; }
+.seven-col > .col1 { width: 14.286%; }
+.seven-col > .col2 { width: 28.572%; }
+.seven-col > .col3 { width: 42.858%; }
+.seven-col > .col4 { width: 57.144%; }
+.seven-col > .col5 { width: 71.43%; }
+.seven-col > .col6 { width: 85.716%; }
 
 .eight-col > .col1 { width: 12.5%; }
-.eight-col > .col2 { width: 12.5%; }
-.eight-col > .col3 { width: 12.5%; }
-.eight-col > .col4 { width: 12.5%; }
-.eight-col > .col5 { width: 12.5%; }
-.eight-col > .col6 { width: 12.5%; }
-.eight-col > .col7 { width: 12.5%; }
+.eight-col > .col2 { width: 25%; }
+.eight-col > .col3 { width: 37.5%; }
+.eight-col > .col4 { width: 50%; }
+.eight-col > .col5 { width: 62.5%; }
+.eight-col > .col6 { width: 75%; }
+.eight-col > .col7 { width: 87.5%; }
 
 .nine-col > .col1 { width: 11.111%; }
-.nine-col > .col2 { width: 11.111%; }
-.nine-col > .col3 { width: 11.111%; }
-.nine-col > .col4 { width: 11.111%; }
-.nine-col > .col5 { width: 11.111%; }
-.nine-col > .col6 { width: 11.111%; }
-.nine-col > .col7 { width: 11.111%; }
-.nine-col > .col8 { width: 11.111%; }
+.nine-col > .col2 { width: 22.222%; }
+.nine-col > .col3 { width: 33.333%; }
+.nine-col > .col4 { width: 44.444%; }
+.nine-col > .col5 { width: 55.555%; }
+.nine-col > .col6 { width: 66.666%; }
+.nine-col > .col7 { width: 77.777%; }
+.nine-col > .col8 { width: 88.888%; }
 
 .ten-col > .col1 { width: 10%; }
 .ten-col > .col2 { width: 20%; }
@@ -172,27 +172,27 @@ body {
 .ten-col > .col9 { width: 90%; }
 
 .eleven-col > .col1 { width: 9.090%; }
-.eleven-col > .col2 { width: 9.090%; }
-.eleven-col > .col3 { width: 9.090%; }
-.eleven-col > .col4 { width: 9.090%; }
-.eleven-col > .col5 { width: 9.090%; }
-.eleven-col > .col6 { width: 9.090%; }
-.eleven-col > .col7 { width: 9.090%; }
-.eleven-col > .col8 { width: 9.090%; }
-.eleven-col > .col9 { width: 9.090%; }
-.eleven-col > .col10 { width: 9.090%; }
+.eleven-col > .col2 { width: 18.18%; }
+.eleven-col > .col3 { width: 27.27%; }
+.eleven-col > .col4 { width: 36.36%; }
+.eleven-col > .col5 { width: 45.45%; }
+.eleven-col > .col6 { width: 54.54%; }
+.eleven-col > .col7 { width: 63.63%; }
+.eleven-col > .col8 { width: 72.72%; }
+.eleven-col > .col9 { width: 81.81%; }
+.eleven-col > .col10 { width: 90.9%; }
 
 .twelve-col > .col1 { width: 8.333%; }
-.twelve-col > .col2 { width: 8.333%; }
-.twelve-col > .col3 { width: 8.333%; }
-.twelve-col > .col4 { width: 8.333%; }
-.twelve-col > .col5 { width: 8.333%; }
-.twelve-col > .col6 { width: 8.333%; }
-.twelve-col > .col7 { width: 8.333%; }
-.twelve-col > .col8 { width: 8.333%; }
-.twelve-col > .col9 { width: 8.333%; }
-.twelve-col > .col10 { width: 8.333%; }
-.twelve-col > .col11 { width: 8.333%; }
+.twelve-col > .col2 { width: 16.666%; }
+.twelve-col > .col3 { width: 24.999%; }
+.twelve-col > .col4 { width: 33.332%; }
+.twelve-col > .col5 { width: 41.665%; }
+.twelve-col > .col6 { width: 49.998%; }
+.twelve-col > .col7 { width: 58.331%; }
+.twelve-col > .col8 { width: 66.664%; }
+.twelve-col > .col9 { width: 74.997%; }
+.twelve-col > .col10 { width: 83.33%; }
+.twelve-col > .col11 { width: 91.663%; }
 
 /* column clear fixes */
 .one-col:before, .one-col:after,
