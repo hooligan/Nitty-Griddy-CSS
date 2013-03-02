@@ -241,3 +241,28 @@ body {
 .half {}
 .third {}
 .quater {}
+
+/* --------------------
+    Mobile
+-------------------- */
+@media only screen and (max-width: 467px) {
+
+    /* Nitty Griddy Mobile Resets */
+    .container,
+    .container .col1,
+    .container .col2,
+    .container .col3,
+    .container .col4,
+    .container .col5,
+    .container .col6,
+    .container .col7,
+    .container .col8,
+    .container .col9,
+    .container .col10,
+    .container .col11,
+    .container .col12,
+    .img {
+        width: 100%;
+    }
+
+}
