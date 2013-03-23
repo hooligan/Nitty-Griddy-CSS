@@ -8,539 +8,559 @@
 
     <style type="text/css">
 
-    	body { font-family: Arial, Helvetica, sans-serif}
-        h1 { font-size: 1.6em; margin: 0 0 20px; }
-	h2 { font-size: 1.4em; margin: 0 0 10px; }
+    	body { font-family: Arial, Helvetica, sans-serif; background: #eee}
+		
+		h1 { font-size: 1.6em; margin: 0 0 20px; }
+		h2 { font-size: 1.4em; margin: 0 0 10px; }
 
-	.container { margin: 0 auto;}
+		.banner {}
 
-	/* style column types */
-	.demo .col1 { background: #345582; }
-	.demo .col2 { background: #BD1550; }
-	.demo .col3 { background: #E97F02; }
-	.demo .col4 { background: #F8CA00; }
-	.demo .col5 { background: #8A9B0F; }
-	.demo .col6 { background: #654A3F; }
-	.demo .col7 { background: #7C6F5F; }
-	.demo .col8 { background: #D77656; }
-	.demo .col9 { background: #F0CFAE; }
-	.demo .col10 { background: #D4B37D; }
-	.demo .col11 { background: #FF7B7B; }
-	.demo .col12 { background: #047DC6; }
+		.content {}
+		.content .container { background: #fff; }
+
+		.demo > div { color: #fff }
+
+		/* style column types */
+		.demo .col1 { background: #345582; }
+		.demo .col2 { background: #BD1550; }
+		.demo .col3 { background: #E97F02; }
+		.demo .col4 { background: #F8CA00; }
+		.demo .col5 { background: #8A9B0F; }
+		.demo .col6 { background: #654A3F; }
+		.demo .col7 { background: #7C6F5F; }
+		.demo .col8 { background: #D77656; }
+		.demo .col9 { background: #F0CFAE; }
+		.demo .col10 { background: #D4B37D; }
+		.demo .col11 { background: #FF7B7B; }
+		.demo .col12 { background: #047DC6; }
 
     </style>
 
 </head>
 <body>
 
-	<div class='container'>
+	<div class="banner">
 
-		<h1>Nitty Griddy Demo</h1>
+		<div class='container center'>
 
-		<div class='two-col'>
-
-			<h2>One Column</h2>
-
-			<div class='col1 demo'>
-
-				<div class='one-col'>
-					<div class='col1'>col 1</div>
-				</div>
-
-			</div>
-
-			<div class='col1'>
-
-				<div class='one-col'>
-					<div class='col1'>col 1</div>
-				</div>
-
-			</div>
+			<h1>Nitty Griddy</h1>
 
 		</div>
 
-		<div class='two-col'>
+	</div>
 
-			<h2>Two Column</h2>
+	<div class="content"> 
 
-			<div class='col1 demo'>
+		<div class='container padding center'>
 
-				<div class='two-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='two-col'>
-					<div class='col2'>col 2</div>
-				</div>
+			<div class='two-col margin-bottom keep'>
 
-			</div>
+				<h2>One Column</h2>
 
-			<div class='col1'>
+				<div class='col1 demo'>
 
-				<div class='two-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
+					<div class='one-col'>
+						<div class='col1'>col 1</div>
+					</div>
+
 				</div>
 
-			</div>
+				<div class='col1'>
 
-		</div>
+					<div class='one-col'>
+						<div class='col1'>col 1</div>
+					</div>
 
-		<div class='two-col'>
-
-			<h2>Three Column</h2>
-
-			<div class='col1 demo'>
-
-				<div class='three-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='three-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='three-col'>
-					<div class='col3'>col 3</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='three-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
+			<div class='two-col margin-bottom keep'>
+
+				<h2>Two Column</h2>
+
+				<div class='col1 demo'>
+
+					<div class='two-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='two-col'>
+						<div class='col2'>col 2</div>
+					</div>
+
 				</div>
-			</div>
 
-		</div>
+				<div class='col1'>
 
-		<div class='two-col'>
+					<div class='two-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 
-			<h2>Four Column</h2>
-
-			<div class='col1 demo'>
-
-				<div class='four-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='four-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='four-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='four-col'>
-					<div class='col4'>col 4</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='four-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Three Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Five Column</h2>
+					<div class='three-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='three-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='three-col'>
+						<div class='col3'>col 3</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='five-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='five-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='five-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='five-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='five-col'>
-					<div class='col5'>col 5</div>
+				<div class='col1'>
+
+					<div class='three-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
+
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='five-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Four Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Six Column</h2>
+					<div class='four-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='four-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='four-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='four-col'>
+						<div class='col4'>col 4</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='six-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='six-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='six-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='six-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='six-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='six-col'>
-					<div class='col6'>col 6</div>
+				<div class='col1'>
+					<div class='four-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='six-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Five Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Seven Column</h2>
+					<div class='five-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='five-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='five-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='five-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='five-col'>
+						<div class='col5'>col 5</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='seven-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='seven-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='seven-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='seven-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='seven-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='seven-col'>
-					<div class='col6'>col 6</div>
-				</div>
-				<div class='seven-col'>
-					<div class='col7'>col 7</div>
+				<div class='col1'>
+					<div class='five-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='seven-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Six Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Eight Column</h2>
+					<div class='six-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='six-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='six-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='six-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='six-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='six-col'>
+						<div class='col6'>col 6</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='eight-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col6'>col 6</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col7'>col 7</div>
-				</div>
-				<div class='eight-col'>
-					<div class='col8'>col 8</div>
+				<div class='col1'>
+					<div class='six-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='eight-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Seven Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Nine Column</h2>
+					<div class='seven-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='seven-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='seven-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='seven-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='seven-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='seven-col'>
+						<div class='col6'>col 6</div>
+					</div>
+					<div class='seven-col'>
+						<div class='col7'>col 7</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='nine-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col6'>col 6</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col7'>col 7</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col8'>col 8</div>
-				</div>
-				<div class='nine-col'>
-					<div class='col9'>col 9</div>
+				<div class='col1'>
+					<div class='seven-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='nine-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Eight Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Ten Column</h2>
+					<div class='eight-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col6'>col 6</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col7'>col 7</div>
+					</div>
+					<div class='eight-col'>
+						<div class='col8'>col 8</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='ten-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col6'>col 6</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col7'>col 7</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col8'>col 8</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col9'>col 9</div>
-				</div>
-				<div class='ten-col'>
-					<div class='col10'>col 10</div>
+				<div class='col1'>
+					<div class='eight-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='ten-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Nine Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Eleven Column</h2>
+					<div class='nine-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col6'>col 6</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col7'>col 7</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col8'>col 8</div>
+					</div>
+					<div class='nine-col'>
+						<div class='col9'>col 9</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='eleven-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col6'>col 6</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col7'>col 7</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col8'>col 8</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col9'>col 9</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col10'>col 10</div>
-				</div>
-				<div class='eleven-col'>
-					<div class='col11'>col 11</div>
+				<div class='col1'>
+					<div class='nine-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='eleven-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-				</div>
-			</div>
+			<div class='two-col margin-bottom keep'>
 
-		</div>
+				<h2>Ten Column</h2>
 
-		<div class='two-col'>
+				<div class='col1 demo'>
 
-			<h2>Twelve Column</h2>
+					<div class='ten-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col6'>col 6</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col7'>col 7</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col8'>col 8</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col9'>col 9</div>
+					</div>
+					<div class='ten-col'>
+						<div class='col10'>col 10</div>
+					</div>
 
-			<div class='col1 demo'>
+				</div>
 
-				<div class='twelve-col'>
-					<div class='col1'>col 1</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col2'>col 2</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col3'>col 3</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col4'>col 4</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col5'>col 5</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col6'>col 6</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col7'>col 7</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col8'>col 8</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col9'>col 9</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col10'>col 10</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col11'>col 11</div>
-				</div>
-				<div class='twelve-col'>
-					<div class='col12'>col 12</div>
+				<div class='col1'>
+					<div class='ten-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
 				</div>
 
 			</div>
 
-			<div class='col1'>
-				<div class='twelve-col'>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
-					<div class='col1'>col 1</div>
+			<div class='two-col margin-bottom keep'>
+
+				<h2>Eleven Column</h2>
+
+				<div class='col1 demo'>
+
+					<div class='eleven-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col6'>col 6</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col7'>col 7</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col8'>col 8</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col9'>col 9</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col10'>col 10</div>
+					</div>
+					<div class='eleven-col'>
+						<div class='col11'>col 11</div>
+					</div>
+
 				</div>
+
+				<div class='col1'>
+					<div class='eleven-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class='two-col margin-bottom keep'>
+
+				<h2>Twelve Column</h2>
+
+				<div class='col1 demo'>
+
+					<div class='twelve-col'>
+						<div class='col1'>col 1</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col2'>col 2</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col3'>col 3</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col4'>col 4</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col5'>col 5</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col6'>col 6</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col7'>col 7</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col8'>col 8</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col9'>col 9</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col10'>col 10</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col11'>col 11</div>
+					</div>
+					<div class='twelve-col'>
+						<div class='col12'>col 12</div>
+					</div>
+
+				</div>
+
+				<div class='col1'>
+					<div class='twelve-col'>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+						<div class='col1'>col 1</div>
+					</div>
+				</div>
+
 			</div>
 
 		</div>
