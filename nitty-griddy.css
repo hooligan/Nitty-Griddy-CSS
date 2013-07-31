@@ -162,10 +162,35 @@
 -------------------- */
 .center { margin: 0 auto; }
 .hide,
+.desktop-only,
+.tablet-only,
 .mobile-only { 
     display:none !important; 
 }
 .show { display: block !important; }
+
+/* --------------------
+    Desktop
+-------------------- */
+@media only screen and (min-width: 768px) {  
+
+    .desktop-only { display:inherit !important; }
+
+}
+
+/* --------------------
+    Tablet - Portrait
+-------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {  
+    
+    .container { width: 480px; }
+    .tablet-only { display:inherit !important; }
+    
+    .responsive .containter { width: 100%; }
+    
+    /* Reset Columns to be either 50% or 100% half */
+    
+}
 
 /* --------------------
     Mobile - Portrait
@@ -173,9 +198,9 @@
 @media only screen and (max-width: 480px) {
 
     .container { width: 300px; }
-    .mobile-only { display: inherit !important; }
-    .desktop-only { display: none !important; }
     
+    .mobile-only { display:inherit !important; }
+
     /* Nitty Griddy Mobile Resets */
     .container,
     .container .col-1,
@@ -192,11 +217,5 @@
     .container .col-12 {
         width: 100%;
     }
-    
-    
-    .container .mobile-full { width: 100%; }
-    .container .mobile-half { width: 50%; }
-    .container .mobile-third { width: 33.333%; }
-    .container .mobile-quater { width: 25%; }
 
 }
